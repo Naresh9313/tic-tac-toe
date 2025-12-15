@@ -62,4 +62,6 @@ io.on("connection", (socket) => {
   });
 });
 
-httpServer.listen(3000);
+httpServer.listen(3000,()=> {
+  console.log(`Socket run in 3000`) 
+});
