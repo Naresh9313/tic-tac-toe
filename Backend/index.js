@@ -73,7 +73,7 @@ const httpServer = createServer();
 // ✅ FIX 1: Proper CORS object
 const io = new Server(httpServer, {
   cors: {
-    origin: "http://localhost:5173", // later replace with your frontend URL
+    origin: "https://tic-tac-toe-five-sigma-23.vercel.app/", // later replace with your frontend URL
     methods: ["GET", "POST"]
   }
 });
